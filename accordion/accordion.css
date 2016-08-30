@@ -1,0 +1,61 @@
+/* Micro Reset and Colors
+-------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(205, 211, 230, 0.5);
+  padding-top: 12vh;
+}
+
+a {
+  text-decoration: none;
+  color: #cdd3e6;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #bb7744;
+}
+
+#snippet-list li h3:hover,
+.selected { color: #bb7744; }
+#snippet-list li h3:hover span { color: #110f14; }
+
+#snippet-list li h3:hover span em { color: #bb7744; }
+#snippet-list li h3 span em {
+  color: #110f14;
+  transition: 0.3s;
+}
+
+li {
+ list-style-type: none;
+}
+
+/*  Snippets
+------------------------------------*/
+#snippet-list {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2.5%;
+}
+
+#snippet-list li h3 {
+  border-bottom: 1px solid #8799a9;
+  transition: 0.3s;
+}
+
+#snippet-list li h3 span {
+  vertical-align: top;
+  font-size: .7862rem;
+  color: #bb7744;
+  transition: 0.3s;
+}
+
+#snippet-list li p {
+  max-height: 40vh;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  padding: 1rem .5rem;
+  background: rgba(135, 153, 169, 0.4);
+}
