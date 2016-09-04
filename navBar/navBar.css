@@ -75,7 +75,7 @@ nav.js h3 {
   width: 80%;
 }
 
-nav.js div {
+nav.js div {  /* div contains the menu button */
   display: inline-block;
   width: 17.5%;
   text-align: right;

@@ -1,6 +1,6 @@
 # Accessible Web Components
 
-Check out this collection of accessible web components! They are all pretty basic and include..
+This is a collection of accessible web components! They are all pretty basic and include..
 
 - Only necessary HTML
 - CSS for the non-javaScript &amp; scripted versions

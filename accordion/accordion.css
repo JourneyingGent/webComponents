@@ -19,12 +19,12 @@ a:hover {
   color: #bb7744;
 }
 
-#snippet-list li h3:hover,
+ul li h3:hover,
 .selected { color: #bb7744; }
-#snippet-list li h3:hover span { color: #110f14; }
+ul li h3:hover span { color: #110f14; }
 
-#snippet-list li h3:hover span em { color: #bb7744; }
-#snippet-list li h3 span em {
+ul li h3:hover span em { color: #bb7744; }
+ul li h3 span em {
   color: #110f14;
   transition: 0.3s;
 }
@@ -33,27 +33,27 @@ li {
  list-style-type: none;
 }
 
-/*  Snippets
+/*  Unordered List
 ------------------------------------*/
-#snippet-list {
+ul {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 2.5%;
 }
 
-#snippet-list li h3 {
+ul li h3 {
   border-bottom: 1px solid #8799a9;
   transition: 0.3s;
 }
 
-#snippet-list li h3 span {
+ul li h3 span {
   vertical-align: top;
   font-size: .7862rem;
   color: #bb7744;
   transition: 0.3s;
 }
 
-#snippet-list li p {
+ul li p {
   max-height: 40vh;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
   padding: 1rem .5rem;
